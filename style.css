@@ -1,0 +1,221 @@
+
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+
+}
+header{
+    width: 100%;
+    height: 8%;
+    background-color:#ffff;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: #009 0 0 4px 0;
+    padding: 0 3% 0 3%;
+    position: fixed;
+}
+.logo{
+    width: 100%;
+    justify-content: start;
+    align-items: center;
+    display: flex;
+}
+.logo-img{
+    width: 50px;
+}
+.nombre_empresa{
+    font-size: 3em;
+    color: #009;
+    padding-left: 2%;
+    margin: 0;
+}
+.menu{
+    width: 100%;
+    text-align: end;
+    color: #009; 
+    display: flex;
+}
+a{
+    color:#009;
+    padding-left: 20%;
+    text-decoration: none;
+}
+.contenido{
+    width: 100%;
+    height: 100%;
+}
+h2{
+    margin:0;
+}
+.titulo_index{
+    padding: 10% 0 2% 0;
+    font-size: 8em;
+    color: #ffff;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000;
+
+
+}
+.eslogan{
+    color: #fff;
+    font-size: 4em;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+}
+.boton-cotizar{
+    border:0;
+    background-color: rgba(255, 255, 255);
+    border-radius: 12px;
+    width: 40%;
+    height: 4vw;
+    opacity: 0.6;
+    text-align: center;
+    font-size: 1.2em;
+    color: #009;
+    box-shadow: #009 0 0 4px;
+}
+.banner{
+    
+    width: 100%;
+    height:800px;
+    background-image: url("/imagen/3.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;  
+}
+.title-inf-quienessomos{
+    text-align: center;
+    font-size: 2em;
+    color: #272626;
+}
+.inf-quienessomos{
+    font-size: 1em;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 2%;
+}
+.inf{
+    text-align: center;
+    margin: 3%;
+    background-color: rgb(242, 242, 246);
+    border-radius: 16px;
+    box-shadow: #009 0 0 4px;
+}
+.infcontactos{
+    display: flex;
+    align-items: center;
+    background-color: #ddd;
+    justify-content: space-around;
+    color: #030000;
+    padding: 1% 6%;
+}
+#servicios{
+    padding-top: 10%; 
+}
+.title-servicios{
+    width: 100%;
+    text-align: center;
+    font-size: 3em;
+    color: rgb(0, 0, 0);
+}
+.lista-servicios{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    color: rgb(0, 0, 0);
+}
+.servicio{
+    margin: 2%;
+    background-color: #ddd;
+    border-radius: 10px;
+    font-size: 1.2em;
+    width: 40%;
+    text-align: center;
+    box-shadow: #009 0 0 4px;
+
+}
+img{
+    width: 80%;
+    border-radius: 15px;
+    margin: 2%;
+}
+#contacto{
+    width: 100%;
+    padding-top: 10%;
+    display: flex;
+    align-items: center;
+    background-color: #ddd;
+    margin-bottom: 6%;
+}
+.contactenos{
+    text-align: center;
+    padding: 4%;
+    width: 50%;
+    font-size: 1.5em;
+}
+.imagenqr{
+    width: 40%;
+}
+
+.title-cotizacion{
+    text-align: center;
+    margin: 0;
+    margin-bottom: 3%;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    padding: 4%;
+    
+
+}
+form{
+    color:#ffff;
+    background-color: #222;
+    max-width: 700px;
+    border-radius: 12px;
+    box-shadow: #000 0 0 30px;
+    margin: auto;
+    margin-bottom: 3%;
+
+}
+.form-unput{
+    padding: 2% 4%;
+    
+}
+input, textarea{
+    width: 100%;
+    padding: 6px 12px;
+    box-sizing: border-box;
+    border: none;
+    border: 2px solid #666;
+    box-shadow: 0 0 15px #0001;
+    background-color: transparent;
+    border-radius: 4px;
+    color: #eee;
+    margin-top: 1%;
+
+}
+textarea{
+    min-width: 100%;
+    resize: none;
+}
+label{
+    font-size: 0.88em;
+}
+.boton-enviar{
+    width: 100%;
+    padding-bottom: 3%;
+}
+button {
+    font-size: 1.2em;
+    display: block;
+    margin: auto;
+    padding: 0.3em 1em 0.3em 1em;
+    border-radius: 6px;
+    border:none;
+    margin-bottom: 2%;
+  }

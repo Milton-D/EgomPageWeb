@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Egmon - Contacto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img class="logo-img" src="/imagen/logo.png">
+            <h1 class="nombre_empresa">Egom</h1>
+        </div>
+        <nav  class="menu">
+            <a class="menu-index" href="index.html">Inicio</a>
+            <a class=menu-servicios href="servicios.html">Servicios</a>
+            <a class="menu-contacto" href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+
+    <div class="contenido">
+        <section id="contacto">
+            <div class="contactenos">
+                <h2>Contactenos</h2>
+                <p><strong>Dirección:</strong> Pasto-Nariño</p>
+                <p><strong>Teléfono:</strong> +57 3112030000</p>
+                <p><strong>Correo electrónico:</strong> egom_sas@gmail.com</p>
+            </div>
+            <div class="imagenqr">
+                <img src="imagen/qr.png"/>
+            </div>
+        </section>
+        <section action="#" id="cotizacion">
+            <form action="#" method="POST">
+
+                <h2 class="title-cotizacion">Cotizaciones</h2>
+
+                <div class="form-unput">
+                    <label for="nombre">Nombre Completo</label>
+                    <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre"/>
+                    <br>
+                </div>
+                <div class="form-unput">
+                    <label for="telefono">Telefono</label>
+                    <input type="tel" id="telefono" name="telefono" required placeholder="+57 310000000" />
+                    <br>
+                </div>
+                <div class="form-unput">
+                    <label for="email">Correo electrónico</label>
+                    <input type="email" id="email" name="email" required placeholder="ejemplo@correo.com"/>
+                    <br>
+                </div>
+                <div class="form-unput">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea rows="8" id="mensaje" name="mensaje" required placeholder="Escribe que quieres cotizar"></textarea>
+                    <br>
+                </div>
+                <div class="boton-enviar">
+                    <button type="submit">Enviar</button>
+                </div>
+                
+            </form>
+        </section>
+    </div>
+</body>
+</html>
